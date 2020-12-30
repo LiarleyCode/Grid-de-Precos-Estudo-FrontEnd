@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: url("https://images.unsplash.com/photo-1503375572039-45409a68d5f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80") center center/cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0, 0.2);
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 30px black;
+}
+
+.main-container .offer-block {
+    padding: 45px 45px 0 45px;
+}
+
+.main-container .offer-block h2 {
+    color: #3da7a2;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.main-container .offer-block h3 {
+    color: #bfdf32;
+    margin-top: 30px;
+}
+
+.main-container .offer-block p {
+    color: #bfc0c5;
+    margin-top: -5px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* ? MONTHLY BLOCK ? */
+.monthly-block {
+    background: #2bb3b1;
+    width: 50%;
+    border-bottom-left-radius: 5px;
+    padding: 20px 45px;
+    box-sizing: border-box;
+}
+
+.monthly-block h3 {
+    color: white;
+}
+
+.monthly-block p:nth-child(3), p:nth-child(4) {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.monthly-block p:nth-child(3) {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.monthly-block p:nth-child(4) {
+    margin-left: 3px;
+    color: rgba(255,255,255, 0.6);
+    font-size: 0.9rem;
+}
+
+.monthly-block .comment {
+    font-size: 0.83rem;
+    color: white;
+}
+
+.monthly-block .sign-up {
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #a4be30;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.monthly-block .sign-up:hover {
+    background-color: #bfdf32;
+}
+
+
+/* ? ABOUT US BLOCK ? */
+
+.about-us-block {
+    background: #4abebd;
+    width: 50%;
+    border-bottom-right-radius: 5px;
+    padding: 20px 45px;
+    box-sizing: border-box;
+}
+
+.about-us-block h3 {
+    color: white;
+}
+
+.about-us-block p {
+    font-size: 0.9rem;
+    color: rgba(255,255,255, 0.8);
+}
